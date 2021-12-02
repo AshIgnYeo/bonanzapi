@@ -7,7 +7,7 @@ export const fetchBonanzApi = () => {
    * URL: http://691.ashleyignatius.com:5001/api/{VERSION}/{EDNPOINT}
    * Version: v1
    * Endpoints:
-   * - orders, users, products
+   * - [orders, users, products]
    * ======== End ========
    */
 
