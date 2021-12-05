@@ -1,6 +1,6 @@
 # BonanzApi
 
-Exercises for working with APIs
+Exercises for working with APIs!
 
 ## Challenge 1
 
@@ -13,15 +13,23 @@ The first challenge! A simple exercise to learn how to handle multiple API calls
 
 ### ❗️Read First
 
+To begin the challenge:
+
+```
+cd 01-multiple-apis
+yarn
+yarn start
+```
+
 > **assets/js/main.js**
 
-1. We should not need to change any function calls in this file.
+1. We should not need to change anything in this file.
 2. From a single function call `fetchBonanzApi()` we should be able to get all our data and pass to the callback function `populateDashboard`.
-3. Only uncomment out `.then(populateDashboard)` when we have our function call ready.
 
 > **assets/js/modules/api.js**
 
-1. `fetchBonanzApi()` should return the right data to pass along to our callback function in `main.js`.
+1. We are immediately receiving an error in our console when we start our app, we need to update something in this file to clear the error.
+2. `fetchBonanzApi()` should return the right data to pass along to our callback function in `main.js`.
 
 > **assets/js/modules/dashboard.js**
 

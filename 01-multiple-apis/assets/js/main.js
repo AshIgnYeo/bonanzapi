@@ -18,5 +18,4 @@ import { populateDashboard } from "./modules/dashboard";
  *    from fetchBonanApi. Commented out now to prevent errors.
  * -----------------------------------------------------------------
  */
-fetchBonanzApi();
-// .then(populateDashboard);
+fetchBonanzApi().then(populateDashboard);
