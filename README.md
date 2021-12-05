@@ -1,3 +1,3 @@
 # BonanzApi
 
-Just a simple exercise to train working with multipl APIs
+Just a simple exercise to train working with multiple APIs
