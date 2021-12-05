@@ -14,8 +14,6 @@ import { populateDashboard } from "./modules/dashboard";
  * 3. populateDashboard should then be able to handle updating the
  *    dashboard with the information it receives.
  *
- * 4. uncomment populateDashboard when you're ready to pass data
- *    from fetchBonanApi. Commented out now to prevent errors.
  * -----------------------------------------------------------------
  */
 fetchBonanzApi().then(populateDashboard);
