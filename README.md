@@ -21,6 +21,8 @@ yarn
 yarn start
 ```
 
+You can then navigate to http://localhost:1234 on your browser
+
 > **assets/js/main.js**
 
 1. We should not need to change anything in this file.
